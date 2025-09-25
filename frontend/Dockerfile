@@ -15,7 +15,7 @@ COPY . .
 
 # Create a .env file with the build-time environment variable
 ARG VITE_API_BASE
-ENV VITE_API_BASE=${VITE_API_BASE:-https://tailor-booking-website.onrender.com}
+ENV VITE_API_BASE=${VITE_API_BASE:-https://findmytailor-backend.onrender.com}
 
 # Expose Vite dev server port
 EXPOSE 5173

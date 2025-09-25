@@ -44,7 +44,7 @@ services:
       - "3000:80"
     environment:
       - NODE_ENV=production
-      - VITE_API_BASE=https://tailor-booking-website.onrender.com
+      - VITE_API_BASE=https://findmytailor-backend.onrender.com
     depends_on:
       - web
 
