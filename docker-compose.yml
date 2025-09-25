@@ -21,9 +21,9 @@ services:
       - DEBUG=False
       - SECRET_KEY=your-production-secret-key
       - DATABASE_URL=postgresql://postgres:postgres@db:5432/tailor_it
-      - ALLOWED_HOSTS=localhost,127.0.0.1
-      - CORS_ALLOWED_ORIGINS=http://localhost:8000
-      - CSRF_TRUSTED_ORIGINS=http://localhost:8000
+      - ALLOWED_HOSTS=https://findmytailor-backend.onrender.com,https://findmytailor.onrender.com
+      - CORS_ALLOWED_ORIGINS=https://findmytailor.onrender.com
+      - CSRF_TRUSTED_ORIGINS=https://findmytailor.onrender.com
       - DB_HOST=db
       - DB_PORT=5432
     ports:

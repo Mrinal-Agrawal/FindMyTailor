@@ -168,3 +168,19 @@ CSRF_TRUSTED_ORIGINS = [
     'https://findmytailor.onrender.com',
     'https://findmytailor-backend.onrender.com',
 ]   
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'console': {'class': 'logging.StreamHandler'},
+    },
+    'root': {'handlers': ['console'], 'level': 'DEBUG'},
+    'loggers': {
+        'django.request': {
+            'handlers': ['console'],
+            'level': 'DEBUG',
+            'propagate': False,
+        },
+    },
+}
