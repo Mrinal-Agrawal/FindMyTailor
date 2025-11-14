@@ -1,4 +1,4 @@
-# TailorIt - Complete Tailor Booking Platform
+# FindMyTailor - Complete Tailor Booking Platform
 
 A full-stack web application that connects customers with local tailors, featuring real-time booking, image uploads, payment processing, and comprehensive review system.
 

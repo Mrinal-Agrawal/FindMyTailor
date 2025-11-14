@@ -210,8 +210,8 @@ SIMPLE_JWT = {
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:5173',  # Frontend (Vite development)
     'http://127.0.0.1:5173',  # Frontend (Alternative localhost - some systems need this)
-    'https://tailor-booking-website.onrender.com',  # Production backend
-    'https://tailor-booking-website-frontend.onrender.com',  # Production frontend
+    'https://findmytailor-backend.onrender.com',  # Production backend
+    'https://findmytailor.onrender.com',  # Production frontend
 ]
 
 # Additional CORS settings for development
@@ -221,7 +221,7 @@ CORS_ALLOW_ALL_ORIGINS = DEBUG  # Only allow all origins in debug mode
 CSRF_TRUSTED_ORIGINS = [
     'http://localhost:5173',  # Frontend
     'http://127.0.0.1:5173',  # Frontend (Alternative localhost)
-    'https://tailor-booking-website.onrender.com',  # Production
+    'https://findmytailor-backend.onrender.com',  # Production
     'http://tailor-booking-website.onrender.com'   # Production (HTTP fallback)
 ]   
 
