@@ -39,8 +39,8 @@ Before running this application, ensure you have:
 
 ### **1. Clone the Repository**
 ```bash
-git clone https://github.com/Tanya741/Tailor-Booking-Website.git
-cd Tailor-Booking-Website
+https://github.com/Mrinal-Agrawal/FindMyTailor.git
+cd FindMyTailor
 ```
 
 ### **2. Environment Setup**
